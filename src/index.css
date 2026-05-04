@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@keyframes scroll {
+  0% { transform: translateX(-100%); }
+  /* 50% { transform: translateX(50%); } */
+  100% { transform: translateX(100%); }
+}
+.animate-scroll {
+  animation: scroll 50s steps(4) infinite;
+}
+
+@media (width: 1024px) {
+  .about{
+    transform: translateY(-220px); 
+  }
+}
+@media  (width: 540px){
+  .about{
+    transform: translateY(-150px)!;
+  }
+}
+
+
+/* * {
+  border: 2px solid red;
+} */
