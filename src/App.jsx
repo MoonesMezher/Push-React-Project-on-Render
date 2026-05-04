@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
         <Header/>
-        <Test/>
+        {/* <Test/> */}
         <Cards/>
         <Article/>
         <Slider/>
